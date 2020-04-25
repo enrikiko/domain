@@ -1,0 +1,4 @@
+{
+"password" : $input.json("$.password"),
+"ip" : "$context.identity.sourceIp"
+}
